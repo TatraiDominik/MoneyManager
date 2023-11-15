@@ -1,0 +1,2 @@
+# MoneyManager
+Tátrai Dominik 
