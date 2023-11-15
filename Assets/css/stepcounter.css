@@ -1,7 +1,8 @@
 body{
-    background-color: silver;
+    background-color: #60656F;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+
 }
 
 header{
@@ -12,6 +13,7 @@ header{
     text-shadow: 0 0 3px black;
     text-align: center;
     font-size: 200%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 footer{
@@ -21,6 +23,7 @@ footer{
     letter-spacing: 3px;
     text-align: center;
     padding: 10px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 main{
@@ -29,8 +32,11 @@ main{
 
 .container{
     background-color: white;
-    box-shadow: 0 0 10px gray;
+    box-shadow:  10px 10px rgb(180, 177, 177);
     padding: 10px;
+    border-radius: 20px;
+
+    
 }
 
 #calendar {
