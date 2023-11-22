@@ -9,9 +9,24 @@
     <label for="date">Dátum</label>
 </div>
 
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Típus
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" id="kiad"href="#">Kiadás</a></li>
+      <li><a class="dropdown-item" id="bevetel" href="#">Bevétel</a></li>
+    </ul>
+</div>
+
 <div class="form-floating mb-3">
-    <input type="number" class="form-control" id="steps" placeholder="" min="0" value="0">
-    <label for="steps">Lépésszám</label>
+    <input type="text" class="form-control" id="tags" placeholder=""  value="">
+    <label for="steps">Tag</label>
+</div>
+
+<div class="form-floating mb-3">
+    <input type="number" class="form-control" id="tags" placeholder=""  min="0" value="0">
+    <label for="steps">Összeg</label>
 </div>
 
 <button class="btn btn-primary mb-3" onclick="addSteps()">Rögzítés</button>
