@@ -6,6 +6,13 @@ function setMaxDate(){
 function getToday(){
     setTimeout(()=>{setMaxDate()}, 500);
 }
+function getType(){
+    let TypeButton = document.querySelector("#TypeButton");
+    let kiad = document.querySelector("#kiad");
+    let bevetel = document.querySelector("#bevetel");
+
+    
+}
 
 function addSteps(){
 
